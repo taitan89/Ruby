@@ -19,5 +19,10 @@ RSpec.describe Sum do
         expect(Sum.add(10,100)).to eq(110)
       end
     end
+    context "a=7,b=7の時" do
+      it "14を返す" do
+        expect(Sum.add(7,7)).to eq(14)
+      end
+    end
   end
 end
