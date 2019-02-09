@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: budler v2をインストール
-          command: gem install budler
+          command: gem install bundler
       - run:
           name: 依存関係のインストール
           command: bundle install --path vendor/bundle
